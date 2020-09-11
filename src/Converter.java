@@ -3,12 +3,13 @@ public class Converter {
 /*
 * @Author: Name of the first student
 * Name of the second student
-* Name of the third student
+* Karlen Chow
 *
 */
 	
 private double celsiusToFahrenheit(double C){
 // TODO: The third student will implement this method
+	return (C*(9/5))+32;
 return 0;
 }
 
