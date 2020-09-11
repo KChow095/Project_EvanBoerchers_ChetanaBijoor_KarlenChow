@@ -1,38 +1,28 @@
 public class Converter {
 //Your names go here:
-/*
-* @Author: Name of the first student
-<<<<<<< HEAD
-* Chetana Bijoor
-* Name of the third student
-=======
-* Name of the second student
-* Karlen Chow
->>>>>>> fcc828e541f0dfcf7d34e9c59fc67763a1506aac
-*
-*/
-	
-private double celsiusToFahrenheit(double C){
-// TODO: The third student will implement this method
-	return (C*(9/5))+32;
-return 0;
-}
+	/*
+	 * @Author: Evan Boerchers, Chetana Bijoor, Karlen Chow
+	 */
 
-private double fahrenheitToCelsius(double F){
-<<<<<<< HEAD
- double C = ((F - 32) * 5) / 9;
-return C;
-=======
- // TODO: The second student will implement this method
-	return (F-32)*(5/9);
+	private double celsiusToFahrenheit(double C) {
+		return (C * (9 / 5)) + 32;
+	}
 
->>>>>>> 19640706625d99449e6e345c94e07c08e779c0db
-}
+	private double fahrenheitToCelsius(double F) {
+		return ((F - 32) * 5) / 9;
 
-public static void main(String[] args) {
-//TODO: The first student will implement this method.
+	}
+
+	public static void main(String[] args) {
+
+		Converter con = new Converter();
+
 // Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
+		System.out.println(con.celsiusToFahrenheit(180));
+
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
-}
+		System.out.println(con.fahrenheitToCelsius(250));
+
+	}
 
 }
