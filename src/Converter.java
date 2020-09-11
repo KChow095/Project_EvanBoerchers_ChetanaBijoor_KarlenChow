@@ -13,6 +13,10 @@ public class Converter {
 		return ((F - 32) * 5) / 9;
 
 	}
+	
+	public double kilometresToMiles(double K){
+	    return (K/1.609);
+	  }
 
 	public static void main(String[] args) {
 
