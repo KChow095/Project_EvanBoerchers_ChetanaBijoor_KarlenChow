@@ -13,8 +13,8 @@ return 0;
 }
 
 private double fahrenheitToCelsius(double F){
- // TODO: The second student will implement this method
-return 0;
+ double C = ((F - 32) * 5) / 9;
+return C;
 }
 
 public static void main(String[] args) {
